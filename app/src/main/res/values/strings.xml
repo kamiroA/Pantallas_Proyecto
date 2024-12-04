@@ -56,4 +56,20 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="seleccion_de_alumno">Selección de Alumno</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="selciona_una_asignatura">Selciona Una Asignatura</string>
+    <string name="aceptar_SeleccionarAsignatura">Aceptar</string>
+    <string name="pmdm">PMDM</string>
+    <string name="ad">AD</string>
+    <string name="psp">PSP</string>
+    <string name="di">DI</string>
+    <string name="sge">SGE</string>
+    <string name="iacc">IACC</string>
+    <string name="ios">IOS</string>
+    <string name="cancelar_SeleccionarAlumno">Cancelar</string>
+    <string name="selecci_n_de_asignatura">Selección de Asignatura</string>
+    <string name="seleccionar_alumno_consulta">Seleccionar Alumno</string>
+    <string name="nombre_del_alumno_consultar">Nombre del alumno</string>
 </resources>

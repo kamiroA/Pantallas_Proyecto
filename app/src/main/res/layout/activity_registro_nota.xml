@@ -14,13 +14,13 @@
         android:layout_height="54dp"
 
         android:layout_marginStart="20dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="216dp"
         android:text="@string/registro_de_nota"
         android:textColor="@color/md_red_700"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.806"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,7 +28,7 @@
         android:id="@+id/btnSelecionarAlumno"
         android:layout_width="150dp"
         android:layout_height="70dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginTop="116dp"
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/md_red_700"
         android:text="@string/seleccionar_alumno"
@@ -37,11 +37,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTxtNombreAlumno"
+        android:id="@+id/eTxtNombreAlumno"
         android:layout_width="210dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="127dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="132dp"
         android:autofillHints="Pulsa el boton"
         android:ems="10"
         android:enabled="false"
@@ -71,7 +71,7 @@
         android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="225dp"
+        android:layout_marginTop="212dp"
         android:autofillHints="Pulsa el boton"
         android:ems="10"
         android:enabled="false"
@@ -84,8 +84,8 @@
 
     <EditText
         android:id="@+id/editTxtNotaExamen"
-        android:layout_width="205dp"
-        android:layout_height="56dp"
+        android:layout_width="190dp"
+        android:layout_height="51dp"
         android:layout_marginStart="12dp"
         android:layout_marginTop="336dp"
         android:autofillHints=""
@@ -104,7 +104,7 @@
         android:id="@+id/editTxtNotaActividades"
         android:layout_width="187dp"
         android:layout_height="53dp"
-        android:layout_marginTop="336dp"
+        android:layout_marginTop="332dp"
         android:layout_marginEnd="5dp"
         android:autofillHints=""
         android:ems="10"
@@ -124,16 +124,18 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="101dp"
         android:layout_marginEnd="100dp"
+        android:layout_marginBottom="240dp"
         android:autofillHints=""
         android:ems="10"
         android:enabled="false"
         android:hint="@string/nota_final"
         android:inputType="none"
         android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="443dp" />
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btnCalcular"
@@ -141,7 +143,7 @@
         android:layout_height="wrap_content"
 
         android:layout_marginStart="136dp"
-        android:layout_marginBottom="164dp"
+        android:layout_marginBottom="160dp"
         android:backgroundTint="@color/md_red_700"
         android:text="@string/calcular_nota"
         android:textColor="@color/md_white_1000"
